@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # Run row files against their Mojo binaries. See tests/README.md.
 # Usage: tests/run.sh [rowfile ...]   (default: tests/cases/*.txt)
-# Env: BUILD_DIR (default build), ORACLE_PY (default .work/oracle-venv/bin/python)
+# Env: BUILD_DIR (default build), ORACLE_PY (default .work/oracle-venv/bin/python, else python3; rowdiff is stdlib only)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 BUILD_DIR=${BUILD_DIR:-build}
-PY=${ORACLE_PY:-.work/oracle-venv/bin/python}
+PY=${ORACLE_PY:-.work/oracle-venv/bin/python}; [ -x "$PY" ] || PY=python3
 OUT=${BUILD_DIR:-build}/tests-out
 mkdir -p "$OUT"
 

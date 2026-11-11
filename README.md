@@ -48,6 +48,9 @@ tests/build_all.sh     # builds the row drivers into build/
 tests/run.sh           # runs every row in tests/cases/
 ```
 
+`tests/run.sh` needs only `python3` for numeric and dataset rows. The 148 pixel rows also need
+`opencv-python` and `numpy` to read the PNGs; point `ORACLE_PY` at a Python that has them.
+
 ## Limits
 
 - Needs Mojo 1.2 (`uv sync`), with mojo-cv, mojo-json and mojo-gzip checked out next to this repo.
