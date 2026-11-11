@@ -1,0 +1,5 @@
+# gen: tools/gen_datasets.py seed=42
+load	{"input":"tests/fixtures/datasets/voc/in","params":{"format":"voc"},"tol":{}}	{"classes":["cat","dog"],"images":[{"image":"img_000.png","class_id":[0,0],"xyxy":[[0.0,1.0,4.0,3.0],[2.0,3.0,3.0,4.0]]},{"image":"img_001.png","class_id":[0,1],"xyxy":[[2.0,2.0,4.0,6.0],[4.0,-1.0,6.0,4.0]]},{"image":"img_002.png","class_id":[0],"xyxy":[[4.0,2.0,6.0,6.0]]},{"image":"img_003.png","class_id":[1],"xyxy":[[2.0,0.0,4.0,1.0]]}]}
+save_roundtrip	{"input":"tests/fixtures/datasets/voc/in","params":{"format":"voc"},"tol":{}}	{"ref":"tests/fixtures/datasets/voc/ref/roundtrip.bundle"}
+split	{"input":"tests/fixtures/datasets/voc/in","params":{"format":"voc","split_ratio":0.5,"random_state":42,"shuffle":true},"tol":{}}	{"ref":"tests/fixtures/datasets/voc/ref/split.bundle"}
+merge	{"input":"tests/fixtures/datasets/voc/ref/split_train","params":{"format":"voc","with":"tests/fixtures/datasets/voc/ref/split_valid"},"tol":{}}	{"ref":"tests/fixtures/datasets/voc/ref/merge.bundle"}

@@ -1,0 +1,142 @@
+{
+   "info": {},
+   "licenses": [
+      {
+         "id": 1,
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "name": "CC BY 4.0"
+      }
+   ],
+   "categories": [
+      {
+         "id": 1,
+         "name": "cat",
+         "supercategory": "common-objects"
+      },
+      {
+         "id": 2,
+         "name": "dog",
+         "supercategory": "common-objects"
+      }
+   ],
+   "images": [
+      {
+         "id": 1,
+         "license": 1,
+         "file_name": "img_000.png",
+         "height": 8,
+         "width": 8,
+         "date_captured": "01/01/2020,00:00:00"
+      },
+      {
+         "id": 2,
+         "license": 1,
+         "file_name": "img_001.png",
+         "height": 8,
+         "width": 8,
+         "date_captured": "01/01/2020,00:00:00"
+      },
+      {
+         "id": 3,
+         "license": 1,
+         "file_name": "img_002.png",
+         "height": 8,
+         "width": 8,
+         "date_captured": "01/01/2020,00:00:00"
+      },
+      {
+         "id": 4,
+         "license": 1,
+         "file_name": "img_003.png",
+         "height": 8,
+         "width": 8,
+         "date_captured": "01/01/2020,00:00:00"
+      }
+   ],
+   "annotations": [
+      {
+         "id": 1,
+         "image_id": 1,
+         "category_id": 1,
+         "bbox": [
+            1.0,
+            2.0,
+            4.0,
+            2.0
+         ],
+         "area": 8.0,
+         "segmentation": [],
+         "iscrowd": 0
+      },
+      {
+         "id": 2,
+         "image_id": 1,
+         "category_id": 1,
+         "bbox": [
+            3.0,
+            4.0,
+            1.0,
+            1.0
+         ],
+         "area": 1.0,
+         "segmentation": [],
+         "iscrowd": 0
+      },
+      {
+         "id": 3,
+         "image_id": 2,
+         "category_id": 1,
+         "bbox": [
+            3.0,
+            3.0,
+            2.0,
+            4.0
+         ],
+         "area": 8.0,
+         "segmentation": [],
+         "iscrowd": 0
+      },
+      {
+         "id": 4,
+         "image_id": 2,
+         "category_id": 2,
+         "bbox": [
+            5.0,
+            0.0,
+            2.0,
+            5.0
+         ],
+         "area": 10.0,
+         "segmentation": [],
+         "iscrowd": 0
+      },
+      {
+         "id": 5,
+         "image_id": 3,
+         "category_id": 1,
+         "bbox": [
+            5.0,
+            3.0,
+            2.0,
+            4.0
+         ],
+         "area": 8.0,
+         "segmentation": [],
+         "iscrowd": 0
+      },
+      {
+         "id": 6,
+         "image_id": 4,
+         "category_id": 2,
+         "bbox": [
+            3.0,
+            1.0,
+            2.0,
+            1.0
+         ],
+         "area": 2.0,
+         "segmentation": [],
+         "iscrowd": 0
+      }
+   ]
+}

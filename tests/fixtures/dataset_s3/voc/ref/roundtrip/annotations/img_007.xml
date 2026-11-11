@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>VOC</folder>
+  <filename>img_007.png</filename>
+  <source>
+    <database>roboflow.ai</database>
+  </source>
+  <size>
+    <width>13</width>
+    <height>9</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>zebra</name>
+    <bndbox>
+      <xmin>9</xmin>
+      <ymin>0</ymin>
+      <xmax>10</xmax>
+      <ymax>3</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>zebra</name>
+    <bndbox>
+      <xmin>0</xmin>
+      <ymin>4</ymin>
+      <xmax>1</xmax>
+      <ymax>7</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>zebra</name>
+    <bndbox>
+      <xmin>8</xmin>
+      <ymin>5</ymin>
+      <xmax>11</xmax>
+      <ymax>6</ymax>
+    </bndbox>
+  </object>
+</annotation>

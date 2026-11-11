@@ -1,0 +1,13 @@
+# gen: tools/gen_pixels.py seed=5
+# S5 _cv ops vs cv2; bar per row in tol. Integer draws exact; AA text and blends have stated bars
+cv_circle_outline	{"input":"tests/fixtures/pixels/input.png","params":{"center":[160,120],"radius":60,"color":[0,255,255],"thickness":3},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_circle_outline.png"}
+cv_ellipse_arc	{"input":"tests/fixtures/pixels/input.png","params":{"center":[200,110],"axes":[70,35],"angle":25,"start":30,"end":280,"color":[255,0,128],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_ellipse_arc.png"}
+cv_polylines_open	{"input":"tests/fixtures/pixels/input.png","params":{"pts":[[10,10],[60,200],[110,20],[160,210],[210,30]],"closed":false,"color":[0,200,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_polylines_open.png"}
+cv_polylines_closed	{"input":"tests/fixtures/pixels/input.png","params":{"pts":[[230,20],[300,60],[280,130],[240,110]],"closed":true,"color":[200,0,200],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_polylines_closed.png"}
+cv_fill_nonconvex	{"input":"tests/fixtures/pixels/input.png","params":{"pts":[[150,150],[300,150],[300,170],[170,170],[170,230],[150,230]],"color":[30,180,255]},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_fill_nonconvex.png"}
+cv_put_text_aa	{"input":"tests/fixtures/pixels/input.png","params":{"text":"Hello 123","org":[12,225],"scale":0.9,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_put_text_aa.png"}
+cv_add_weighted	{"input":"tests/fixtures/pixels/input.png","params":{"alpha":0.4,"beta":0.6,"gamma":10.0},"tol":{"max_abs":1,"max_pct":0.5},"input2":"tests/fixtures/pixels/input2.png"}	{"ref":"tests/fixtures/pixels/cv_add_weighted.png"}
+cv_convert_scale_abs	{"input":"tests/fixtures/pixels/input.png","params":{"alpha":1.5,"beta":-40.0},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_convert_scale_abs.png"}
+cv_apply_colormap	{"input":"tests/fixtures/pixels/input_gray.png","params":{"colormap":"JET","source":"input_gray.png"},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_apply_colormap.png"}
+cv_png_roundtrip	{"input":"tests/fixtures/pixels/input.png","params":{"compression":9},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/cv_png_roundtrip.png"}
+cv_text_size	{"params":{"text":"Hello 123","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[117,24,1]}

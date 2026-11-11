@@ -1,0 +1,244 @@
+# gen: tools/gen_text.py seed=0
+# cv2.putText/getTextSize FONT_HERSHEY_SIMPLEX vs src/supervision/_cv/font; bar 0 on every row
+text_size	{"params":{"text":"Hello 123","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[36,8,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.3,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_000.png"}
+text_size	{"params":{"text":"Hello 123","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[38,8,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_001.png"}
+text_size	{"params":{"text":"Hello 123","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[63,14,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.5,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_002.png"}
+text_size	{"params":{"text":"Hello 123","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[67,14,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_003.png"}
+text_size	{"params":{"text":"Hello 123","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[110,24,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.9,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_004.png"}
+text_size	{"params":{"text":"Hello 123","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[117,24,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_005.png"}
+text_size	{"params":{"text":"Hello 123","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[125,27,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":1.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_006.png"}
+text_size	{"params":{"text":"Hello 123","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[130,27,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_007.png"}
+text_size	{"params":{"text":"Hello 123","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[193,41,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,105],"scale":1.5,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_008.png"}
+text_size	{"params":{"text":"Hello 123","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[203,41,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_009.png"}
+text_size	{"params":{"text":"Hello 123","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[254,54,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,105],"scale":2.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_010.png"}
+text_size	{"params":{"text":"Hello 123","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[265,54,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Hello 123","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_011.png"}
+text_size	{"params":{"text":"A","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[6,8,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_012.png"}
+text_size	{"params":{"text":"A","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[7,8,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.3,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_013.png"}
+text_size	{"params":{"text":"A","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[11,14,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_014.png"}
+text_size	{"params":{"text":"A","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[11,14,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.5,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_015.png"}
+text_size	{"params":{"text":"A","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[18,24,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_016.png"}
+text_size	{"params":{"text":"A","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[19,24,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":0.9,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_017.png"}
+text_size	{"params":{"text":"A","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[20,27,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_018.png"}
+text_size	{"params":{"text":"A","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[21,27,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,90],"scale":1.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_019.png"}
+text_size	{"params":{"text":"A","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[30,41,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_020.png"}
+text_size	{"params":{"text":"A","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[31,41,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,105],"scale":1.5,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_021.png"}
+text_size	{"params":{"text":"A","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[39,54,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_022.png"}
+text_size	{"params":{"text":"A","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[41,54,0]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"A","org":[8,105],"scale":2.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_023.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[74,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.3,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_024.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[79,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.3,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_025.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[133,14,3]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.5,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_026.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[142,14,3]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.5,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_027.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[234,24,5]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.9,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_028.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[248,24,5]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":0.9,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_029.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[265,27,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":1.0,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_030.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[279,27,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,90],"scale":1.0,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_031.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[409,41,9]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,105],"scale":1.5,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_032.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[433,41,9]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,105],"scale":1.5,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_033.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[538,54,11]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,105],"scale":2.0,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_034.png"}
+text_size	{"params":{"text":"The quick brown fox","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[566,54,11]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"The quick brown fox","org":[8,105],"scale":2.0,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_035.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[99,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.3,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_036.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[102,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.3,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_037.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[176,14,3]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.5,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_038.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[183,14,3]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.5,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_039.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[304,24,5]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.9,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_040.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[323,24,5]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":0.9,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_041.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[344,27,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":1.0,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_042.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[364,27,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,90],"scale":1.0,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_043.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[538,41,9]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,105],"scale":1.5,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_044.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[563,41,9]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,105],"scale":1.5,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_045.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[702,54,11]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,105],"scale":2.0,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_046.png"}
+text_size	{"params":{"text":"jumps over 0123456789!?","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[743,54,11]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"jumps over 0123456789!?","org":[8,105],"scale":2.0,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_047.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[48,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.3,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_048.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[51,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_049.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[83,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.5,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_050.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[91,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_051.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[149,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.9,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_052.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[157,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_053.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[167,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":1.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_054.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[176,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_055.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[260,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,105],"scale":1.5,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_056.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[273,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_057.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[339,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,105],"scale":2.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_058.png"}
+text_size	{"params":{"text":"gjpqy_()[]{}","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[360,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"gjpqy_()[]{}","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_059.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[65,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_060.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[67,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.3,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_061.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[121,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_062.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[121,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.5,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_063.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[208,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_064.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[216,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":0.9,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_065.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[236,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_066.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[243,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,90],"scale":1.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_067.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[363,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_068.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[371,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,105],"scale":1.5,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_069.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[478,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_070.png"}
+text_size	{"params":{"text":"%$#@&*+=<>/\\|~^","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[493,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"%$#@&*+=<>/\\|~^","org":[8,105],"scale":2.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_071.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[55,8,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.3,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_072.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[60,8,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.3,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_073.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[100,14,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.5,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_074.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[105,14,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.5,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_075.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[174,24,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.9,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_076.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[185,24,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":0.9,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_077.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[197,27,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":1.0,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_078.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[205,27,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,90],"scale":1.0,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_079.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[304,41,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,105],"scale":1.5,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_080.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[318,41,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,105],"scale":1.5,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_081.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[401,54,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,105],"scale":2.0,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_082.png"}
+text_size	{"params":{"text":"MWmw iIl1 oO0","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[417,54,1]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"MWmw iIl1 oO0","org":[8,105],"scale":2.0,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_083.png"}
+text_size	{"params":{"text":"","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[0,0,0]}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[33,8,31]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.3,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_084.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[36,8,31]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_085.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[59,14,55]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.5,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_086.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[63,14,55]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_087.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[103,24,91]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.9,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_088.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[112,24,91]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_089.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[117,27,103]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":1.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_090.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[124,27,103]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_091.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[179,41,157]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,105],"scale":1.5,"color":[255,255,255],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_092.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[191,41,157]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_093.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[236,54,205]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,105],"scale":2.0,"color":[0,0,0],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_094.png"}
+text_size	{"params":{"text":"Line one\nLine two\n\nLine four","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[251,54,205]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Line one\nLine two\n\nLine four","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_095.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.3,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[51,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.3,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_096.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.3,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[52,8,2]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.3,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_097.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[90,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.5,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_098.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[93,14,4]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.5,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_099.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.9,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[160,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.9,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_100.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":0.9,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[165,24,6]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":0.9,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_101.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":1.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[179,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":1.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_102.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":1.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[187,27,7]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,90],"scale":1.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_103.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":1.5,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[275,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,105],"scale":1.5,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_104.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":1.5,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[287,41,10]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,105],"scale":1.5,"color":[0,0,0],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_105.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":2.0,"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[360,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,105],"scale":2.0,"color":[30,60,250],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_106.png"}
+text_size	{"params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","scale":2.0,"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"value":[378,54,13]}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Caf\u00e9 \u00dcn\u00ef \u00e7\u00f1 \u20ac","org":[8,105],"scale":2.0,"color":[255,255,255],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_107.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped left","org":[-30,60],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_108.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped left","org":[-30,60],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_109.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped right","org":[260,60],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_110.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped right","org":[260,60],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_111.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped top","org":[10,4],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_112.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped top","org":[10,4],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_113.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped bottom","org":[10,118],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_114.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Clipped bottom","org":[10,118],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_115.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Off canvas","org":[400,60],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_116.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Off canvas","org":[400,60],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_117.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Above","org":[10,-40],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_118.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Above","org":[10,-40],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_119.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Two\nlines","org":[-5,20],"scale":0.7,"color":[20,200,40],"thickness":1},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_120.png"}
+text_put	{"input":"tests/fixtures/pixels/text_bg.png","params":{"text":"Two\nlines","org":[-5,20],"scale":1.2,"color":[20,200,40],"thickness":2},"tol":{"max_abs":0,"max_pct":0.0}}	{"ref":"tests/fixtures/pixels/text_121.png"}

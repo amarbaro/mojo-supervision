@@ -1,0 +1,13 @@
+"""Field names supervision uses as keys of Detections.data and metadata (port of supervision/config.py)."""
+
+comptime CLASS_NAME_DATA_FIELD = "class_name"
+comptime COCO_RAW_SEGMENTATION = "coco_raw_segmentation"
+comptime AREA_DATA_FIELD = "area"
+comptime XYXY_DATA_FIELD = "xyxy"
+comptime ISCROWD_DATA_FIELD = "iscrowd"
+comptime HANDEDNESS_SCORE_DATA_FIELD = "handedness_score"
+comptime SOURCE_IMAGE_METADATA_FIELD = "source_image"
+comptime ORIENTED_BOX_COORDINATES = "xyxyxyxy"
+comptime DEPTH_M_DATA_FIELD = "depth_m"
+comptime DISPARITY_PX_DATA_FIELD = "disparity_px"
+comptime RELATIVE_INVERSE_DATA_FIELD = "relative_inverse"

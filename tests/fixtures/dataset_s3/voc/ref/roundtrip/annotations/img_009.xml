@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>VOC</folder>
+  <filename>img_009.png</filename>
+  <source>
+    <database>roboflow.ai</database>
+  </source>
+  <size>
+    <width>13</width>
+    <height>9</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>ant</name>
+    <bndbox>
+      <xmin>6</xmin>
+      <ymin>3</ymin>
+      <xmax>11</xmax>
+      <ymax>4</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>ant</name>
+    <bndbox>
+      <xmin>5</xmin>
+      <ymin>3</ymin>
+      <xmax>7</xmax>
+      <ymax>4</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>ant</name>
+    <bndbox>
+      <xmin>1</xmin>
+      <ymin>5</ymin>
+      <xmax>2</xmax>
+      <ymax>8</ymax>
+    </bndbox>
+  </object>
+</annotation>

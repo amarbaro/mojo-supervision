@@ -1,0 +1,138 @@
+{
+   "info": {},
+   "licenses": [
+      {
+         "id": 1,
+         "url": "https://creativecommons.org/licenses/by/4.0/",
+         "name": "CC BY 4.0"
+      }
+   ],
+   "categories": [
+      {
+         "id": 1,
+         "name": "cat",
+         "supercategory": "common-objects"
+      },
+      {
+         "id": 2,
+         "name": "dog",
+         "supercategory": "common-objects"
+      }
+   ],
+   "images": [
+      {
+         "id": 1,
+         "license": 1,
+         "file_name": "seg_003.png",
+         "height": 24,
+         "width": 24,
+         "date_captured": "01/01/2020,00:00:00"
+      },
+      {
+         "id": 2,
+         "license": 1,
+         "file_name": "seg_000.png",
+         "height": 24,
+         "width": 24,
+         "date_captured": "01/01/2020,00:00:00"
+      }
+   ],
+   "annotations": [
+      {
+         "id": 1,
+         "image_id": 2,
+         "category_id": 1,
+         "bbox": [
+            1.7000000476837158,
+            1.7000000476837158,
+            12.600000381469727,
+            12.600000381469727
+         ],
+         "area": 50.0,
+         "segmentation": [
+            [
+               7,
+               2,
+               6,
+               3,
+               5,
+               3,
+               3,
+               5,
+               3,
+               6,
+               2,
+               7,
+               2,
+               9,
+               3,
+               10,
+               3,
+               11,
+               5,
+               13,
+               6,
+               13,
+               7,
+               14,
+               9,
+               14,
+               10,
+               13,
+               11,
+               13,
+               13,
+               11,
+               13,
+               10,
+               14,
+               9,
+               14,
+               7,
+               13,
+               6,
+               13,
+               5,
+               11,
+               3,
+               10,
+               3,
+               9,
+               2
+            ]
+         ],
+         "iscrowd": 0
+      },
+      {
+         "id": 2,
+         "image_id": 2,
+         "category_id": 2,
+         "bbox": [
+            2.5,
+            12.5,
+            18.0,
+            10.0
+         ],
+         "area": 50.0,
+         "segmentation": [
+            [
+               2,
+               12,
+               12,
+               22,
+               14,
+               20,
+               14,
+               19,
+               18,
+               15,
+               18,
+               14,
+               20,
+               12
+            ]
+         ],
+         "iscrowd": 0
+      }
+   ]
+}

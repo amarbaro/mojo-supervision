@@ -1,0 +1,5 @@
+# gen: tools/gen_datasets.py seed=42
+load	{"input":"tests/fixtures/datasets/yolo/in","params":{"format":"yolo"},"tol":{}}	{"classes":["cat","dog"],"images":[{"image":"img_000.png","class_id":[0,0],"xyxy":[[1.0,2.0,5.0,4.0],[3.0,4.0,4.0,5.0]]},{"image":"img_001.png","class_id":[0,1],"xyxy":[[3.0,3.0,5.0,7.0],[5.0,0.0,7.0,5.0]]},{"image":"img_002.png","class_id":[0],"xyxy":[[5.0,3.0,7.0,7.0]]},{"image":"img_003.png","class_id":[1],"xyxy":[[3.0,1.0,5.0,2.0]]}]}
+save_roundtrip	{"input":"tests/fixtures/datasets/yolo/in","params":{"format":"yolo"},"tol":{}}	{"ref":"tests/fixtures/datasets/yolo/ref/roundtrip.bundle"}
+split	{"input":"tests/fixtures/datasets/yolo/in","params":{"format":"yolo","split_ratio":0.5,"random_state":42,"shuffle":true},"tol":{}}	{"ref":"tests/fixtures/datasets/yolo/ref/split.bundle"}
+merge	{"input":"tests/fixtures/datasets/yolo/ref/split_train","params":{"format":"yolo","with":"tests/fixtures/datasets/yolo/ref/split_valid"},"tol":{}}	{"ref":"tests/fixtures/datasets/yolo/ref/merge.bundle"}
