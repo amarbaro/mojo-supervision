@@ -1,0 +1,5 @@
+name = "mojo-supervision"
+version = "0.1.1"
+description = "Roboflow supervision ported to Mojo, each op checked against Python supervision"
+tags = ["mojo", "vision", "detection", "tracking"]
+tins = ["mojo-cv", "mojo-gzip", "mojo-json"]
