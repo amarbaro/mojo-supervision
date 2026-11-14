@@ -1,6 +1,7 @@
 # mojo-supervision
 
 <!-- badges -->
+[![ci](https://github.com/amarbaro/mojo-supervision/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/amarbaro/mojo-supervision/actions/workflows/ci.yml) [![latest release](https://img.shields.io/github/v/release/amarbaro/mojo-supervision)](https://github.com/amarbaro/mojo-supervision/releases/latest) [![license](https://img.shields.io/github/license/amarbaro/mojo-supervision)](https://github.com/amarbaro/mojo-supervision/blob/main/LICENSE)
 <!-- /badges -->
 
 Roboflow [supervision](https://github.com/roboflow/supervision) ported to Mojo. Every op is checked
